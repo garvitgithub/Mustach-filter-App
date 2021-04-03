@@ -1,0 +1,18 @@
+p{
+    width:100%;
+    font-size:30px;
+    margin-top:0px;
+    }
+    .btn-warning:hover{
+    background-color:red ;
+    }
+    canvas{
+    animation-name:garvit;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes garvit{
+    from{box-shadow:2px 2px 40px red;}
+    to{box-shadow:2px 2px 40px greenyellow;}
+    
+    }
